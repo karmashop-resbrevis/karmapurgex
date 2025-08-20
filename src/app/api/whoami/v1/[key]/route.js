@@ -83,7 +83,7 @@ async function fetchIPInfo(ip) {
     const [ipDetectiveRes, ipWhoRes] = await Promise.allSettled([
         fetchWithTimeout(`https://ipdetective.p.rapidapi.com/ip/${ip}?info=true`, {
             headers: {
-                "x-rapidapi-key": process.env.X_API_KEY,
+                "x-rapidapi-key": process.env.X_RAPID_API_KEY,
                 "x-rapidapi-host": "ipdetective.p.rapidapi.com",
             },
         }),
@@ -356,7 +356,7 @@ export async function GET(req, context) {
         return NextResponse.json({ error: "No valid destination found" }, { status: 502 });
     }
 
-    const today = new Date().toISOString().split("T")[0]; // e.g., "2025-08-19"
+    const today = new Date().toISOString().split("T")[0];
 
     const usageDoc = await db.collection("daily_usage").findOneAndUpdate(
         {

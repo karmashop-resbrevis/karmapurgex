@@ -30,7 +30,12 @@ export default function Subscription({}) {
 			priceWeekly: "Rp.0",
 			priceMonthly: "Rp.0",
 			priceYearly: "Rp.0",
-			features: ["Basic bot filtering", "Community support", "Limited stats"],
+			features: [
+				"Basic bot filtering",
+				"Community support",
+				"Limited stats",
+				"100 Requests",
+			],
 			urls: {
 				weekly: "/karmapurge/signup",
 				monthly: "/karmapurge/signup",
@@ -39,13 +44,16 @@ export default function Subscription({}) {
 		},
 		{
 			name: "Pro",
-			priceWeekly: "Rp.143.000",
-			priceMonthly: "Rp.312.000",
-			priceYearly: "Rp.1.104.000",
+			priceWeekly: "Rp.148.000",
+			priceMonthly: "Rp.322.000",
+			priceYearly: "Rp.1.204.000",
 			features: [
 				"Advanced bot protection",
 				"Geo/IP filtering",
 				"Analytics dashboard",
+				"32000 Requests (Weekly)",
+				"62000 Requests (Monthly)",
+				"122000 Requests (Yearly)",
 			],
 			urls: {
 				weekly: "https://app.sandbox.midtrans.com/payment-links/pro-weekly",
@@ -55,10 +63,17 @@ export default function Subscription({}) {
 		},
 		{
 			name: "Enterprise",
-			priceWeekly: "Rp.412.000",
-			priceMonthly: "Rp.1.223.000",
-			priceYearly: "Rp.2.234.000",
-			features: ["Custom rules", "Priority support", "Unlimited shortlinks"],
+			priceWeekly: "Rp.418.000",
+			priceMonthly: "Rp.1.323.000",
+			priceYearly: "Rp.2.334.000",
+			features: [
+				"Custom rules",
+				"Priority support",
+				"Unlimited shortlinks",
+				"420000 Requests (Weekly)",
+				"860000 Requests (Monthly)",
+				"1620000 Requests (Yearly)",
+			],
 			urls: {
 				weekly:
 					"https://app.sandbox.midtrans.com/payment-links/enterprise-weekly",

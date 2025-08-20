@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Toaster } from "sonner";
 import Script from "next/script";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata = {
     title: `KarmaPurge | Advanced Web Security & Bot Protection`,
@@ -68,6 +69,7 @@ export default function RootLayout({ children }) {
             <body className="antialiased" style={{ fontFamily: "var(--font-karmapurge)" }}>
                 <Toaster richColors position="top-right" />
                 {children}
+                <SpeedInsights />
                 <Script
                     src="https://app.midtrans.com/snap/snap.js"
                     data-client-key={process.env.NEXT_PUBLIC_MIDTRANS_CLIENT_KEY}

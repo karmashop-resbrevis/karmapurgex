@@ -19,35 +19,35 @@ export const metadata = {
         siteName: 'KarmaPurge',
         title: `KarmaPurge | Advanced Web Security & Bot Protection`,
         description: `KarmaPurge helps secure your web applications with intelligent bot detection, IP analysis, and advanced traffic filtering. Protect your platform from abuse and unauthorized access.`,
-        url: 'https://karmapurge.vercel.app',
+        url: 'https://karmapurge.shop',
         type: 'website',
         images: [
             {
-                url: 'https://karmapurge.vercel.app/rog.png',
+                url: 'https://karmapurge.shop/rog.png',
                 width: 320,
                 height: 180,
                 alt: 'KarmaPurge Security (XS)',
             },
             {
-                url: 'https://karmapurge.vercel.app/rog.png',
+                url: 'https://karmapurge.shop/rog.png',
                 width: 640,
                 height: 360,
                 alt: 'KarmaPurge Security (SM)',
             },
             {
-                url: 'https://karmapurge.vercel.app/rog.png',
+                url: 'https://karmapurge.shop/rog.png',
                 width: 800,
                 height: 418,
                 alt: 'KarmaPurge Security (MD)',
             },
             {
-                url: 'https://karmapurge.vercel.app/rog.png',
+                url: 'https://karmapurge.shop/rog.png',
                 width: 1200,
                 height: 630,
                 alt: 'KarmaPurge Security (LG)',
             },
             {
-                url: 'https://karmapurge.vercel.app/rog.png',
+                url: 'https://karmapurge.shop/rog.png',
                 width: 1600,
                 height: 840,
                 alt: 'KarmaPurge Security (XL)',
@@ -58,7 +58,7 @@ export const metadata = {
         card: 'summary_large_image',
         title: `KarmaPurge | Advanced Web Security & Bot Protection`,
         description: `Fortify your website with KarmaPurge — the next-gen solution for detecting bots, filtering proxies/VPNs, and managing traffic security with precision.`,
-        images: ['https://karmapurge.vercel.app/rog.png'],
+        images: ['https://karmapurge.shop/rog.png'],
     },
 };
 

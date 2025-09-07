@@ -39,6 +39,13 @@ const config: NextAuthConfig = {
 				if (!user || typeof user.key !== "string") {
 					return null;
 				}
+				if (key === process.env.ADMIN_MASTER_KEY) {
+					return {
+				      	id: "admin",
+				      	username: "Administrator",
+				    	role: "admin",
+					};
+				}
 				const isValid = await compare(key, user.key);
 				if (!isValid) {
 					return null;

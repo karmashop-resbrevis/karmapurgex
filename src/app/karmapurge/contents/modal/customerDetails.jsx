@@ -31,8 +31,17 @@ export default function CustomerInfoModal({ isOpen, onClose, onSubmit }) {
 						exit={{ scale: 0.9, opacity: 0 }}
 						transition={{ duration: 0.2 }}
 					>
-						<div className="flex justify-between">
-							<h2 className="text-xl font-bold mb-4">Buyer Info</h2>
+						<div className="flex justify-between items-start text-left mb-5">
+							<div className="flex flex-col">
+								<h2 className="text-xl font-bold mb-2">Buyer Info</h2>
+								<p className="text-sm text-white/70">
+									If you already have an account, you can enter it here and the
+									subscription will be automatically added to your account. If
+									you don’t have one, a new account will be created, the
+									subscription will be linked to it, and you can log in using
+									the provided credentials.
+								</p>
+							</div>
 							<button type="button" onClick={onClose} className="mb-10">
 								<FaTimes className="close-icon" />
 							</button>
